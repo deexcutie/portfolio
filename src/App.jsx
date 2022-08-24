@@ -58,7 +58,7 @@ function App() {
       <ScrollContainer>
         <ScrollPage>
           <Animator animation={batch(Fade(), Sticky(), MoveOut(0, -200))}>
-            <div className="space-y-1 ">
+            <div className="space-y-1 fade-in-text">
               <h1 className=" text-white font-bold text-6xl">Hello there👋</h1>
               <p className=" text-white text-xl">
                 ✨ I'm{" "}
